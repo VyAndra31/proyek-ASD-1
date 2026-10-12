@@ -1,5 +1,5 @@
 # Proyek 1 ASD
 Kelas : 
-1. Nama Mhs 1, NIM Mhs 1
-2. Nama Mhs 2, NIM Mhs 2
-2. Nama Mhs 3, NIM Mhs 3
+1. Livyandra Lita Halim, 255150200111009
+2. Faisya Anindya Shafah, 255150201111046
+3. Aisyah Zayyana Ghayda. DM, 255150200111001
