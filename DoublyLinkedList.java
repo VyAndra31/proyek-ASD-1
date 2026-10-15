@@ -133,11 +133,33 @@ public class DoublyLinkedList implements LinkedList{
     @Override
     public void printReverse() {
         // TODO digunakan untuk mencetak data pada linked list dengan urutan terbalik, dari tail ke head.
-        
+        Node2P currentNode = tail;
+        for(int i = 0; i < size; i++){
+            System.out.print(currentNode.data + " ");
+            currentNode = currentNode.prev;
+        }
     }
     @Override
     public boolean remove(Object targetData) {
         // TODO digunakan untuk mencari dan menghapus node dengan data=targetData pada linked list serta mengembalikan nilai True jika berhasil, dan False jika targetData tidak ada di linkedList
+        Node2P currentNode = head;
+        for (int i = 0; i < size; i++) {
+            if (currentNode.data.equals(targetData)) {
+                if (currentNode == head) {
+                    head = currentNode.next;
+                } else {
+                    currentNode.prev.next = currentNode.next;
+                }
+                if (currentNode == tail) {
+                    tail = currentNode.prev;
+                } else {
+                    currentNode.next.prev = currentNode.prev;
+                }
+                size--;
+                return true;
+            }
+            currentNode = currentNode.next;
+        }
         return false;
     }
     @Override
