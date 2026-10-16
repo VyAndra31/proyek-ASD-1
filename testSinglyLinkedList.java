@@ -15,7 +15,7 @@ public class testSinglyLinkedList {
         System.out.println(linkedList.get(12)); //Terjadi exception error
         System.out.println(linkedList.indexOf(4));// menghasilkan 2
         System.out.println(linkedList.indexOf(10));// menghasilkan -1
-        linkedList.printReverse(); // Menghasilkan 6,5,4,3,2,1
+        linkedList.printReverse(); // Menghasilkan 1,2,3,4,5,6
         System.out.println(linkedList.remove(3)); // Menghasilkan True
         System.out.println(linkedList.remove(8)); // Menghasilkan False
         Object[] array = linkedList.toArray();
