@@ -1,4 +1,4 @@
-# Proyek Linked List - Struktur Data
+# Proyek Linked List - Algoritma dan Struktur Data
 
 Proyek ini bertujuan untuk menambahkan dan mengimplementasikan fungsionalitas tambahan pada struktur data **Singly Linked List** dan **Doubly Linked List** sesuai dengan spesifikasi yang diberikan.
 
