@@ -18,6 +18,7 @@ public class testDoublyLinkedList {
         System.out.println(linkedList.indexOf(4));// menghasilkan 5
         System.out.println(linkedList.indexOf(10));// menghasilkan -1
         linkedList.printReverse(); // Menghasilkan 6,5,4,3,2,1
+        System.out.println();
         System.out.println(linkedList.remove(3)); // Menghasilkan True
         System.out.println(linkedList.remove(8)); // Menghasilkan False
         System.out.println(Arrays.toString(linkedList.toArray())); //Menghasilkan [6,5,4,3,2,1]
